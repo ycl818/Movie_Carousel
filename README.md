@@ -13,7 +13,7 @@
 4. Then open index.html with live server to see the result 
 
 ## Feature
-* scale up the movie post when hovering the mouse
+* scale up the movie post when hovering by mouse
 * hide the previous button at the beginning
 * hide the next button at the end
 
