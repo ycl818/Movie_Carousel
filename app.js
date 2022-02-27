@@ -35,13 +35,13 @@ async function showData() {
     .then(() => {
       const popUp = document.querySelectorAll(".movie__card");
 
-      for (let i = 0; i < popUp.length; i++) {
-        popUp[i].addEventListener("click", (e) => {
-          console.log(e.target);
-          const name = "superhero";
-          alert(name);
-        });
-      }
+      // for (let i = 0; i < popUp.length; i++) {
+      //   popUp[i].addEventListener("click", (e) => {
+      //     console.log(e.target);
+      //     const name = "superhero";
+      //     alert(name);
+      //   });
+      // }
     })
     .catch((err) => console.log(err));
 }
